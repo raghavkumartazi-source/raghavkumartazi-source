@@ -1,0 +1,13 @@
+{
+  "username": "raghavkumartazi-source",
+  "name": "Raghav Kumar Tazi",
+  "tagline": "Turning everyday problems into useful software.",
+  "focus": "Web apps · learning tools · extensions",
+  "stack": "Next.js / React / TypeScript / JavaScript",
+  "status": "Learning. Building. Shipping.",
+  "projects": [
+    {"name": "universal-learning-gps", "summary": "Learning roadmaps & progress dashboards"},
+    {"name": "youtube-focus-mode", "summary": "A calmer YouTube for focused study"},
+    {"name": "Semester-3-Attendance-Tracker", "summary": "A Next.js attendance tracker"}
+  ]
+}
