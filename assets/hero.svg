@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title">
+<title id="title">Raghav Kumar Tazi — ECE at IIT (BHU), Varanasi. Learning deeply. Building boldly.</title>
+<defs>
+<radialGradient id="planet" cx="30%" cy="22%" r="80%"><stop stop-color="#fff0d5"/><stop offset=".22" stop-color="#ffbdaf"/><stop offset=".55" stop-color="#ad7ce6"/><stop offset=".85" stop-color="#53417e"/><stop offset="1" stop-color="#252038"/></radialGradient>
+<linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7c5aa"/><stop offset=".5" stop-color="#bca5ff"/><stop offset="1" stop-color="#6f59b5"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#8b61cf" stop-opacity=".3"/><stop offset="1" stop-color="#8b61cf" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#cbb7f4" opacity=".12"/></pattern>
+</defs><style>
+text{font-family:Arial,Helvetica,sans-serif}
+.orbit{animation:orbit 36s linear infinite;transform-origin:0px 0px}
+.reverse{animation:orbit 48s linear infinite reverse;transform-origin:0px 0px}
+.float{animation:float 7s ease-in-out infinite}
+.twinkle{animation:twinkle 5s ease-in-out infinite}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes float{50%{transform:translateY(-9px)}}
+@keyframes twinkle{50%{opacity:.35}}
+@media(prefers-reduced-motion:reduce){.orbit,.reverse,.float,.twinkle{animation:none!important}}
+</style>
+<rect x="0" y="0" width="1200" height="620" rx="24" fill="#171327"/>
+<rect x="18" y="18" width="1164" height="584" rx="16" fill="url(#dots)"/>
+<text x="56" y="57" fill="#f6f0e8" font-size="21" font-weight="800" letter-spacing="3">RKT</text>
+<text x="1144" y="55" fill="#b6a0ff" font-size="12" font-weight="500" text-anchor="end" letter-spacing="2">A WORK IN PROGRESS</text>
+<g transform="translate(920 292) scale(1.03)">
+<circle cx="0" cy="0" r="260" fill="url(#halo)" />
+<ellipse rx="222" ry="72" transform="rotate(-32)" fill="none" stroke="#6c548e" stroke-width="1.2"/>
+<ellipse rx="202" ry="142" transform="rotate(42)" fill="none" stroke="#443652" stroke-width="1"/>
+<g class="float">
+<circle cx="0" cy="0" r="139" fill="url(#planet)" />
+<ellipse cy="-108" rx="87.50" ry="18" fill="none" stroke="#f6d7ed" stroke-opacity=".12"/>
+<ellipse cy="-81" rx="112.96" ry="18" fill="none" stroke="#f6d7ed" stroke-opacity=".12"/>
+<ellipse cy="-54" rx="128.08" ry="18" fill="none" stroke="#f6d7ed" stroke-opacity=".12"/>
+<ellipse cy="-27" rx="136.35" ry="18" fill="none" stroke="#f6d7ed" stroke-opacity=".12"/>
+<ellipse cy="0" rx="139.00" ry="18" fill="none" stroke="#f6d7ed" stroke-opacity=".12"/>
+<ellipse cy="27" rx="136.35" ry="18" fill="none" stroke="#f6d7ed" stroke-opacity=".12"/>
+<ellipse cy="54" rx="128.08" ry="18" fill="none" stroke="#f6d7ed" stroke-opacity=".12"/>
+<ellipse cy="81" rx="112.96" ry="18" fill="none" stroke="#f6d7ed" stroke-opacity=".12"/>
+<ellipse cy="108" rx="87.50" ry="18" fill="none" stroke="#f6d7ed" stroke-opacity=".12"/>
+<path d="M-190 93C-210 155 191-8 194-92" fill="none" stroke="url(#ribbon)" stroke-width="17" stroke-linecap="round"/>
+<path d="M-190 93C-210 155 191-8 194-92" fill="none" stroke="#f8d2ce" stroke-width="1.2"/>
+</g><g class="orbit">
+<circle cx="-169" cy="-123" r="13" fill="#ffbe9e" />
+<circle cx="169" cy="123" r="5" fill="#b6a0ff" />
+</g><g class="reverse">
+<circle cx="105" cy="-198" r="7" fill="#f6f0e8" />
+</g>
+<path d="M-205 24Q-205 37 -192 37Q-205 37 -205 50Q-205 37 -218 37Q-205 37 -205 24Z" fill="#ffbe9e"/>
+<path d="M155 -185Q155 -162 178 -162Q155 -162 155 -139Q155 -162 132 -162Q155 -162 155 -185Z" fill="#b6a0ff"/>
+<path d="M209 104Q209 113 218 113Q209 113 209 122Q209 113 200 113Q209 113 209 104Z" fill="#f6f0e8"/>
+</g>
+<text x="50" y="215" fill="#f6f0e8" font-size="132" font-weight="900" letter-spacing="-8">RAGHAV</text>
+<text x="56" y="295" fill="#b6a0ff" font-size="73" font-weight="800" letter-spacing="-3">KUMAR TAZI</text>
+<text x="59" y="351" fill="#ffbe9e" font-size="18" font-weight="600" letter-spacing="2">ECE @ IIT (BHU), VARANASI</text>
+<text x="56" y="433" fill="#f6f0e8" font-size="31" font-weight="500" >Learning deeply.</text>
+<text x="56" y="473" fill="#f6f0e8" font-size="31" font-weight="500" >Building boldly.</text>
+<path d="M589 402Q589 428 615 428Q589 428 589 454Q589 428 563 428Q589 428 589 402Z" fill="#ffbe9e"/>
+<path d="M56 538H1144" stroke="#453653"/>
+<text x="56" y="577" fill="#b6a0ff" font-size="14" font-weight="500" letter-spacing="2">CURIOUS MIND. HANDS-ON BUILDER.</text>
+<text x="1144" y="577" fill="#ffbe9e" font-size="13" font-weight="500" text-anchor="end" letter-spacing="2">SCROLL TO EXPLORE  ↓</text>
+</svg>

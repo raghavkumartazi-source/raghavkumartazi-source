@@ -1,23 +1,33 @@
-# Your terminal profile
+# Cosmic profile
 
-The profile README displays `assets/terminal.svg`, generated from your public GitHub profile. The design is self-contained and uses no external stats-image services.
+An animated, self-contained SVG portfolio for the GitHub profile. The hero uses an original ringed planet illustration, large lettering, and a violet/peach palette. Three illustrated project cards link to public repositories. Statistics live inside an optional details section.
 
-## Make it yours
+## Customize
 
-Edit `profile.json` to change the name, tagline, focus, stack, status, and featured-project labels. Edit `README.md` to change the clickable project links or bio.
+- `README.md`: bio, interests, links, and section order.
+- `profile.json`: name and project-card titles, descriptions, categories, and stacks. Keep mobile copy short enough for the separate phone layouts.
+- `scripts/design.py`: typography, colors, illustration, and SVG animation. The hero name lettering and campus line are art-directed here; update them alongside the config if reusing this design for someone else.
+- `scripts/update_profile.py`: public GitHub data collection and asset generation.
+
+The ten generated images live in `assets/`. Each image has desktop and phone layouts; the README selects phone layouts below a 640px viewport width. Native SVG animations respect `prefers-reduced-motion`. All image assets are stored in this repository; no external stats-image host, font, script, or tracker is required.
 
 ## Refresh
 
-The **Refresh terminal profile** workflow runs daily at approximately **5:47 AM India time**, when the source changes on `main`, or manually from the Actions tab. GitHub can delay scheduled runs. It uses the repository's built-in `GITHUB_TOKEN`; no personal access token or extra secret is required.
+The **Refresh cosmic profile** workflow runs daily at approximately **5:47 AM India time**, when its source changes on `main`, or manually from Actions. GitHub can delay scheduled runs. It uses the built-in `GITHUB_TOKEN`; no additional secret is required.
 
-To refresh locally with Python 3.12 or later:
+With Python 3.12 or later:
 
 ```sh
 python scripts/update_profile.py
 ```
 
-The generator reads the public GitHub user and repository APIs plus the public contribution calendar. It excludes private repositories and forked code from language totals and does not store your token. Public repository count includes this profile repository. Stars are summed across public, non-fork repositories. Languages are weighted by GitHub's code-byte counts, not a measure of personal proficiency. Contribution totals follow the public GitHub calendar; GitHub may include anonymous private contribution counts if you enabled that setting.
+For a repeatable local preview:
 
-The workflow writes only `assets/terminal.svg`. If the contribution calendar is unavailable, it shows **n/a** instead of inventing a count. If the GitHub API fails, the existing dashboard stays in place and the run fails visibly in Actions.
+```sh
+python scripts/update_profile.py --snapshot /tmp/profile-data.json
+python scripts/update_profile.py --data /tmp/profile-data.json
+```
 
-GitHub may disable scheduled workflows on public repositories after 60 days without repository activity. Re-enable the workflow in Actions if that happens.
+The generator reads the public user/repository APIs and contribution calendar. Private repositories are excluded. Stars count public, non-fork repositories. Languages exclude forks and this profile repository, and measure code bytes rather than proficiency. Contribution totals reflect GitHub's public calendar, including anonymous private counts if enabled. The recent-activity grid covers 16 calendar weeks.
+
+Unavailable contribution data displays as **n/a**, never as invented activity. If a required API request fails, the workflow fails without committing replacements. The token is never written to an asset. GitHub may disable scheduled workflows on inactive public repositories after 60 days; re-enable the workflow in Actions if needed.

@@ -1,13 +1,51 @@
 {
   "username": "raghavkumartazi-source",
   "name": "Raghav Kumar Tazi",
-  "tagline": "Turning everyday problems into useful software.",
-  "focus": "Web apps · learning tools · extensions",
-  "stack": "Next.js / React / TypeScript / JavaScript",
-  "status": "Learning. Building. Shipping.",
   "projects": [
-    {"name": "universal-learning-gps", "summary": "Learning roadmaps & progress dashboards"},
-    {"name": "youtube-focus-mode", "summary": "A calmer YouTube for focused study"},
-    {"name": "Semester-3-Attendance-Tracker", "summary": "A Next.js attendance tracker"}
+    {
+      "name": "universal-learning-gps",
+      "title": "Universal Learning GPS",
+      "category": "LEARNING TOOLS",
+      "description": "Learning roadmaps, skill gaps, and a clearer next step.",
+      "stack": "Next.js  /  React  /  TypeScript",
+      "mobile_title": [
+        "Universal",
+        "Learning GPS"
+      ],
+      "mobile_description": [
+        "Learning roadmaps, skill gaps,",
+        "and a clearer next step."
+      ]
+    },
+    {
+      "name": "youtube-focus-mode",
+      "title": "YouTube Focus Mode",
+      "category": "BROWSER EXTENSION",
+      "description": "Less rabbit hole. More learning. A calmer YouTube.",
+      "stack": "JavaScript  /  Chrome Extension",
+      "mobile_title": [
+        "YouTube",
+        "Focus Mode"
+      ],
+      "mobile_description": [
+        "Less rabbit hole. More learning.",
+        "A calmer YouTube."
+      ]
+    },
+    {
+      "name": "Semester-3-Attendance-Tracker",
+      "title": "Attendance, sorted.",
+      "category": "STUDENT LIFE",
+      "description": "A semester attendance tracker built for the everyday.",
+      "stack": "Next.js  /  TypeScript",
+      "mobile_title": [
+        "Attendance,",
+        "sorted."
+      ],
+      "mobile_description": [
+        "A semester attendance tracker",
+        "built for the everyday."
+      ]
+    }
   ]
 }

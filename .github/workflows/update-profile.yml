@@ -1,4 +1,4 @@
-name: Refresh terminal profile
+name: Refresh cosmic profile
 
 on:
   schedule:
@@ -7,7 +7,7 @@ on:
   push:
     branches: [main]
     paths:
-      - scripts/update_profile.py
+      - scripts/**
       - profile.json
       - .github/workflows/update-profile.yml
 
@@ -15,7 +15,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: terminal-profile
+  group: cosmic-profile
   cancel-in-progress: false
 
 jobs:
@@ -27,15 +27,15 @@ jobs:
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: '3.12'
-      - name: Generate terminal from public GitHub data
+      - name: Generate cosmic artwork from public GitHub data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/update_profile.py
-      - name: Save refreshed dashboard
+      - name: Save refreshed profile artwork
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/terminal.svg
+          git add assets/*.svg
           if ! git diff --cached --quiet; then
             git commit -m "Refresh public profile stats"
             git push

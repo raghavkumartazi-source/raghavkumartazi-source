@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="238" viewBox="0 0 1200 238" role="img" aria-labelledby="title">
+<title id="title">Universal Learning GPS: Learning roadmaps, skill gaps, and a clearer next step.</title>
+<defs>
+<radialGradient id="planet" cx="30%" cy="22%" r="80%"><stop stop-color="#fff0d5"/><stop offset=".22" stop-color="#ffbdaf"/><stop offset=".55" stop-color="#ad7ce6"/><stop offset=".85" stop-color="#53417e"/><stop offset="1" stop-color="#252038"/></radialGradient>
+<linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7c5aa"/><stop offset=".5" stop-color="#bca5ff"/><stop offset="1" stop-color="#6f59b5"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#8b61cf" stop-opacity=".3"/><stop offset="1" stop-color="#8b61cf" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#cbb7f4" opacity=".12"/></pattern>
+</defs><style>
+text{font-family:Arial,Helvetica,sans-serif}
+.orbit{animation:orbit 36s linear infinite;transform-origin:0px 0px}
+.reverse{animation:orbit 48s linear infinite reverse;transform-origin:0px 0px}
+.float{animation:float 7s ease-in-out infinite}
+.twinkle{animation:twinkle 5s ease-in-out infinite}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@keyframes float{50%{transform:translateY(-9px)}}
+@keyframes twinkle{50%{opacity:.35}}
+@media(prefers-reduced-motion:reduce){.orbit,.reverse,.float,.twinkle{animation:none!important}}
+</style>
+<rect x="0" y="0" width="1200" height="238" rx="24" fill="#e7dfff"/>
+<text x="34" y="42" fill="#6146a2" font-size="15" font-weight="700" letter-spacing="2">01  /  LEARNING TOOLS</text>
+<text x="32" y="106" fill="#171327" font-size="49" font-weight="800" letter-spacing="-1.5">Universal Learning GPS</text>
+<text x="35" y="150" fill="#6146a2" font-size="22" font-weight="400" >Learning roadmaps, skill gaps, and a clearer next step.</text>
+<text x="35" y="201" fill="#6146a2" font-size="16" font-weight="600" >Next.js  /  React  /  TypeScript</text>
+<g transform="translate(1055 118)">
+<circle cx="0" cy="0" r="37" fill="none" stroke="#6146a2" stroke-opacity=".3"/>
+<circle cx="0" cy="0" r="63" fill="none" stroke="#6146a2" stroke-opacity=".3"/>
+<circle cx="0" cy="0" r="87" fill="none" stroke="#6146a2" stroke-opacity=".3"/>
+<g class="orbit">
+<circle cx="63" cy="0" r="9" fill="#6146a2" />
+<circle cx="-36" cy="-79" r="6" fill="#6146a2" />
+</g>
+<path d="M0 -25Q0 0 25 0Q0 0 0 25Q0 0 -25 0Q0 0 0 -25Z" fill="#6146a2"/>
+</g>
+<text x="1155" y="209" fill="#6146a2" font-size="29" font-weight="400" >↗</text>
+</svg>

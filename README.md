@@ -1,24 +1,63 @@
+<picture>
+  <source media="(max-width: 640px)" srcset="./assets/hero-mobile.svg" />
+  <img src="./assets/hero.svg" width="100%" alt="Raghav Kumar Tazi — ECE at IIT (BHU), Varanasi. Learning deeply. Building boldly. An animated violet-and-peach planet floats beside the lettering." />
+</picture>
+
 <p align="center">
-  <img src="./assets/terminal.svg" width="100%" alt="Raghav Kumar Tazi's terminal dashboard: IIT Varanasi, web apps, learning tools, browser extensions, public GitHub stats, language distribution, and recent activity." />
+  <a href="#things-im-building"><b>Explore my work</b></a> &nbsp; · &nbsp;
+  <a href="https://github.com/raghavkumartazi-source?tab=repositories"><b>All repositories</b></a> &nbsp; · &nbsp;
+  <a href="https://github.com/raghavkumartazi-source/raghavkumartazi-source/issues/new"><b>Start a conversation ↗</b></a>
 </p>
 
-### `❯ open ~/featured-projects`
+I'm **Raghav**, an ECE undergraduate at **IIT (BHU), Varanasi**. I like understanding how things work, then building something useful with what I learn. Here you'll find learning tools, browser extensions, and small fixes for everyday student life.
 
-| Project | What I'm building | Stack |
-| :--- | :--- | :--- |
-| [**Universal Learning GPS ↗**](https://github.com/raghavkumartazi-source/universal-learning-gps) | Learning roadmaps, skill-gap analysis, and progress dashboards. | Next.js · React · TypeScript |
-| [**YouTube Focus Mode ↗**](https://github.com/raghavkumartazi-source/youtube-focus-mode) | A browser extension for distraction-free study, focus sessions, and streaks. | JavaScript · Chrome Extension |
-| [**Semester 3 Attendance Tracker ↗**](https://github.com/raghavkumartazi-source/Semester-3-Attendance-Tracker) | A web app for tracking semester attendance. | Next.js · TypeScript |
+### Things I'm building
+
+<p>
+<a href="https://github.com/raghavkumartazi-source/universal-learning-gps">
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/project-1-mobile.svg" />
+    <img src="./assets/project-1.svg" width="100%" alt="Universal Learning GPS — learning roadmaps, skill-gap analysis, and progress dashboards. Next.js, React, TypeScript. Open repository." />
+  </picture>
+</a>
+</p>
+
+<p>
+<a href="https://github.com/raghavkumartazi-source/youtube-focus-mode">
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/project-2-mobile.svg" />
+    <img src="./assets/project-2.svg" width="100%" alt="YouTube Focus Mode — a browser extension for distraction-free study and focus sessions. JavaScript, Chrome Extension. Open repository." />
+  </picture>
+</a>
+</p>
+
+<p>
+<a href="https://github.com/raghavkumartazi-source/Semester-3-Attendance-Tracker">
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/project-3-mobile.svg" />
+    <img src="./assets/project-3.svg" width="100%" alt="Semester 3 Attendance Tracker — a web app for tracking semester attendance. Next.js, TypeScript. Open repository." />
+  </picture>
+</a>
+</p>
+
+### Currently in my orbit
+
+**Building with** &nbsp; Next.js · React · TypeScript · JavaScript  
+**Studying** &nbsp; Electronics & communication engineering  
+**Drawn to** &nbsp; Useful software, better ways to learn, and ideas that become real projects.
 
 <details>
-<summary><code>❯ cat about.txt</code></summary>
+<summary><b>A little progress, every day ↗</b></summary>
+<br />
+<picture>
+  <source media="(max-width: 640px)" srcset="./assets/activity-mobile.svg" />
+  <img src="./assets/activity.svg" width="100%" alt="Daily snapshot of public GitHub repositories, stars, contributions, recent activity, and repository language distribution." />
+</picture>
 
-Hi, I'm **Raghav Kumar Tazi** — from **IIT Varanasi**. I build web apps, learning tools, and browser extensions that make everyday tasks a little easier.
-
-I enjoy turning an idea into something usable, then improving it one iteration at a time.
-
-[Explore my repositories](https://github.com/raghavkumartazi-source?tab=repositories) · [Say hello](https://github.com/raghavkumartazi-source/raghavkumartazi-source/issues/new)
+<sub>Refreshed daily from public GitHub data. Language shares measure code bytes, not proficiency. Contribution totals follow GitHub's public calendar, which may include anonymous private activity if enabled.</sub>
 
 </details>
 
-<sub>Stats refresh daily from public GitHub data. Languages reflect code bytes in public, non-fork project repositories. The contribution card uses GitHub's public calendar for the last year. [Customize this terminal](./SETUP.md).</sub>
+---
+
+<p align="center"><b>Stay curious. Make something useful. Repeat.</b><br /><sub>Made of questions, experiments, and a few late-night commits.</sub></p>
