@@ -56,6 +56,7 @@ text{font-family:Arial,Helvetica,sans-serif}
 <rect x="428" y="245" width="25" height="11" rx="3" fill="#30273f"/>
 <rect x="461" y="245" width="25" height="11" rx="3" fill="#30273f"/>
 <rect x="494" y="245" width="25" height="11" rx="3" fill="#514071"/>
+<rect x="527" y="245" width="25" height="11" rx="3" fill="#30273f"/>
 <rect x="32" y="262" width="25" height="11" rx="3" fill="#30273f"/>
 <rect x="65" y="262" width="25" height="11" rx="3" fill="#30273f"/>
 <rect x="98" y="262" width="25" height="11" rx="3" fill="#d5b6ff"/>
@@ -135,24 +136,24 @@ text{font-family:Arial,Helvetica,sans-serif}
 <text x="660" y="202" fill="#f6f0e8" font-size="22" font-weight="600" >Languages in my public projects</text>
 <text x="660" y="238" fill="#b6a0ff" font-size="15" font-weight="400" >TypeScript</text>
 <rect x="790" y="227" width="265" height="7" rx="3" fill="#30273f"/>
-<rect x="790" y="227" width="121.81886187705928" height="7" rx="3" fill="#ffbe9e"/>
-<text x="1166" y="238" fill="#f6f0e8" font-size="14" font-weight="400" text-anchor="end">46.0%</text>
+<rect x="790" y="227" width="119.29256231986095" height="7" rx="3" fill="#ffbe9e"/>
+<text x="1166" y="238" fill="#f6f0e8" font-size="14" font-weight="400" text-anchor="end">45.0%</text>
 <text x="660" y="270" fill="#b6a0ff" font-size="15" font-weight="400" >JavaScript</text>
 <rect x="790" y="259" width="265" height="7" rx="3" fill="#30273f"/>
-<rect x="790" y="259" width="49.667876742841436" height="7" rx="3" fill="#ffbe9e"/>
-<text x="1166" y="270" fill="#f6f0e8" font-size="14" font-weight="400" text-anchor="end">18.7%</text>
+<rect x="790" y="259" width="46.83713642164089" height="7" rx="3" fill="#ffbe9e"/>
+<text x="1166" y="270" fill="#f6f0e8" font-size="14" font-weight="400" text-anchor="end">17.7%</text>
 <text x="660" y="302" fill="#b6a0ff" font-size="15" font-weight="400" >HTML</text>
 <rect x="790" y="291" width="265" height="7" rx="3" fill="#30273f"/>
-<rect x="790" y="291" width="41.345586964716276" height="7" rx="3" fill="#ffbe9e"/>
-<text x="1166" y="302" fill="#f6f0e8" font-size="14" font-weight="400" text-anchor="end">15.6%</text>
+<rect x="790" y="291" width="38.98916209214319" height="7" rx="3" fill="#ffbe9e"/>
+<text x="1166" y="302" fill="#f6f0e8" font-size="14" font-weight="400" text-anchor="end">14.7%</text>
 <text x="660" y="334" fill="#b6a0ff" font-size="15" font-weight="400" >CSS</text>
 <rect x="790" y="323" width="265" height="7" rx="3" fill="#30273f"/>
-<rect x="790" y="323" width="25.25707617501216" height="7" rx="3" fill="#ffbe9e"/>
-<text x="1166" y="334" fill="#f6f0e8" font-size="14" font-weight="400" text-anchor="end">9.5%</text>
+<rect x="790" y="323" width="34.50426695782271" height="7" rx="3" fill="#ffbe9e"/>
+<text x="1166" y="334" fill="#f6f0e8" font-size="14" font-weight="400" text-anchor="end">13.0%</text>
 <text x="660" y="366" fill="#b6a0ff" font-size="15" font-weight="400" >Other</text>
 <rect x="790" y="355" width="265" height="7" rx="3" fill="#30273f"/>
-<rect x="790" y="355" width="26.91059824037085" height="7" rx="3" fill="#ffbe9e"/>
-<text x="1166" y="366" fill="#f6f0e8" font-size="14" font-weight="400" text-anchor="end">10.2%</text>
+<rect x="790" y="355" width="25.37687220853227" height="7" rx="3" fill="#ffbe9e"/>
+<text x="1166" y="366" fill="#f6f0e8" font-size="14" font-weight="400" text-anchor="end">9.6%</text>
 <text x="660" y="407" fill="#b6a0ff" font-size="13" font-weight="400" >Code bytes, not a proficiency score.</text>
-<text x="32" y="418" fill="#b6a0ff" font-size="12" font-weight="400" >Updated 2026-11-01 11:51 IST</text>
+<text x="32" y="418" fill="#b6a0ff" font-size="12" font-weight="400" >Updated 2026-11-02 11:53 IST</text>
 </svg>
